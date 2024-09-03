@@ -1,4 +1,4 @@
-package com.codingrecipe.board2024_boot_jpa;
+package com.codingrecipe.board;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

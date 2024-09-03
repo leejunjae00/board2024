@@ -1,4 +1,4 @@
-package com.codingrecipe.board2024_boot_jpa.controller;
+package com.codingrecipe.board.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +8,6 @@ public class HomeController {
   @GetMapping("/")
   public String index(){
     System.out.println("HomeController.index");
-    return "index";//
+    return "index";
   }
 }
